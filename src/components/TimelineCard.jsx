@@ -7,7 +7,7 @@ import {
     TimelineOppositeContent,
     TimelineSeparator
 } from "@mui/lab";
-import {Accordion, AccordionDetails, AccordionSummary, Typography} from "@mui/material";
+import {Accordion, AccordionDetails, AccordionSummary} from "@mui/material";
 import styled from "styled-components";
 import {School, Work} from "@mui/icons-material";
 

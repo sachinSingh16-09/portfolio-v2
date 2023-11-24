@@ -7,7 +7,8 @@ import {journey} from "../data";
 const Container = styled.div `
   display: flex;
   flex-direction: column;
-  margin: 3rem 0;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
   gap: 2rem;
   border-bottom: 0.5px solid wheat;
 `;

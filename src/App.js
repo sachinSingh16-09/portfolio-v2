@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import TimelineStructure from "./components/TimelineStructure";
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
+import Skills from "./components/Skills";
 
 const theme = createTheme({
     typography: {
@@ -26,6 +27,7 @@ function App() {
               <Navbar/>
               <About/>
               <TimelineStructure/>
+              <Skills/>
           </Container>
       </ThemeProvider>
   );
