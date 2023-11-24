@@ -15,6 +15,7 @@ const Container = styled.div `
   display: flex;
   height: 77vh;
   margin-top: 6rem;
+  border-bottom: 0.5px solid wheat;
 `;
 
 const Left = styled.div `

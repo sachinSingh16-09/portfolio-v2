@@ -1,6 +1,15 @@
+import React from 'react';
 import styled from "styled-components";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import TimelineStructure from "./components/TimelineStructure";
+import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
+
+const theme = createTheme({
+    typography: {
+        fontFamily: '"Urbanist", sans-serif',
+    },
+});
 
 const Container = styled.div `
   padding: 0.5rem 3.5rem;
@@ -11,10 +20,14 @@ const Container = styled.div `
 
 function App() {
   return (
-    <Container>
-        <Navbar/>
-        <About/>
-    </Container>
+      <ThemeProvider theme={theme}>
+          <CssBaseline/>
+          <Container>
+              <Navbar/>
+              <About/>
+              <TimelineStructure/>
+          </Container>
+      </ThemeProvider>
   );
 }
 

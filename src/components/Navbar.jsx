@@ -82,7 +82,6 @@ const Navbar = () => {
                     <UnorderedList>
                         <ListItem>About</ListItem>
                         <ListItem>Experience</ListItem>
-                        <ListItem>Education</ListItem>
                         <ListItem>Skills</ListItem>
                         <ListItem>Testimonials</ListItem>
                     </UnorderedList>
