@@ -34,23 +34,25 @@ const Projects = () => {
     }
 
     return (
-        <Container>
-            <Title>Personal projects..</Title>
-            <CardsDivMain rows={getTemplateRows(data)}>
-                {
-                    data.map((entry, index) => (
-                        <ProjectCard
-                            key={index}
-                            title={entry.title}
-                            summary={entry.summary}
-                            githubLink={entry.githubLink}
-                            demoLink={entry.demoLink}
-                            technologies={entry.technologies}
-                        />
-                    ))
-                }
-            </CardsDivMain>
-        </Container>
+        <section id="projects">
+            <Container>
+                <Title>Personal projects..</Title>
+                <CardsDivMain rows={getTemplateRows(data)}>
+                    {
+                        data.map((entry, index) => (
+                            <ProjectCard
+                                key={index}
+                                title={entry.title}
+                                summary={entry.summary}
+                                githubLink={entry.githubLink}
+                                demoLink={entry.demoLink}
+                                technologies={entry.technologies}
+                            />
+                        ))
+                    }
+                </CardsDivMain>
+            </Container>
+        </section>
     );
 };
 

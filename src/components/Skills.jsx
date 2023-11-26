@@ -82,41 +82,43 @@ const Skills = () => {
     ]
 
     return (
-        <Container>
-            <Title>Skills I've gained</Title>
-            <Cards>
-                <CardContainer>
-                    <SkillsCard
-                        title="Languages"
-                        icons={languages}
-                    />
-                </CardContainer>
-                <CardContainer>
-                    <SkillsCard
-                        title="Frameworks"
-                        icons={frameworks}
-                    />
-                </CardContainer>
-                <CardContainer>
-                    <SkillsCard
-                        title="Databases"
-                        icons={databases}
-                    />
-                </CardContainer>
-                <CardContainer>
-                    <SkillsCard
-                        title="Platforms"
-                        icons={platform}
-                    />
-                </CardContainer>
-                <CardContainer>
-                    <SkillsCard
-                        title="Tools"
-                        icons={tools}
-                    />
-                </CardContainer>
-            </Cards>
-        </Container>
+        <section id="skills">
+            <Container>
+                <Title>Skills I've gained</Title>
+                <Cards>
+                    <CardContainer>
+                        <SkillsCard
+                            title="Languages"
+                            icons={languages}
+                        />
+                    </CardContainer>
+                    <CardContainer>
+                        <SkillsCard
+                            title="Frameworks"
+                            icons={frameworks}
+                        />
+                    </CardContainer>
+                    <CardContainer>
+                        <SkillsCard
+                            title="Databases"
+                            icons={databases}
+                        />
+                    </CardContainer>
+                    <CardContainer>
+                        <SkillsCard
+                            title="Platforms"
+                            icons={platform}
+                        />
+                    </CardContainer>
+                    <CardContainer>
+                        <SkillsCard
+                            title="Tools"
+                            icons={tools}
+                        />
+                    </CardContainer>
+                </Cards>
+            </Container>
+        </section>
     );
 };
 

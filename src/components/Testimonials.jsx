@@ -44,30 +44,30 @@ const Testimonials = () => {
         autoplaySpeed: 8000
     };
 
-    const data = recommendations
-
     return (
-        <Container>
-            <TitleContainer>
-                <Title>Praise and Recognition for me..</Title>
-                <SubText>(via LinkedIn)</SubText>
-            </TitleContainer>
-            <SliderContainer>
-                <Slider {...settings}>
-                    {
-                        data.map((entry,index) => (
-                            <TestimonialCard
-                                key={index}
-                                gender={entry.gender}
-                                name={entry.name}
-                                relation={entry.relation}
-                                text={entry.text}
-                            />
-                        ))
-                    }
-                </Slider>
-            </SliderContainer>
-        </Container>
+        <section id="testimonials">
+            <Container>
+                <TitleContainer>
+                    <Title>Praise and Recognition for me..</Title>
+                    <SubText>(via LinkedIn)</SubText>
+                </TitleContainer>
+                <SliderContainer>
+                    <Slider {...settings}>
+                        {
+                            recommendations.map((entry, index) => (
+                                <TestimonialCard
+                                    key={index}
+                                    gender={entry.gender}
+                                    name={entry.name}
+                                    relation={entry.relation}
+                                    text={entry.text}
+                                />
+                            ))
+                        }
+                    </Slider>
+                </SliderContainer>
+            </Container>
+        </section>
     );
 };
 

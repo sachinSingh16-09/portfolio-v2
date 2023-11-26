@@ -22,24 +22,26 @@ const Title = styled.div `
 const TimelineStructure = () => {
 
     return (
-        <Container>
-            <Title>
-                Journey so far
-            </Title>
-            <Timeline position="alternate">
-                {journey.map((entry, index) => (
-                    <TimelineCard
-                        key={index}
-                        timeline={entry.timeline}
-                        header={entry.header}
-                        footer={entry.footer}
-                        type={entry.type}
-                        period={entry.period}
-                        summary={entry.summary}
-                    />
-                ))}
-            </Timeline>
-        </Container>
+        <section id="TimelineStructure">
+            <Container>
+                <Title>
+                    Journey so far
+                </Title>
+                <Timeline position="alternate">
+                    {journey.map((entry, index) => (
+                        <TimelineCard
+                            key={index}
+                            timeline={entry.timeline}
+                            header={entry.header}
+                            footer={entry.footer}
+                            type={entry.type}
+                            period={entry.period}
+                            summary={entry.summary}
+                        />
+                    ))}
+                </Timeline>
+            </Container>
+        </section>
     );
 };
 

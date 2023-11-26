@@ -23,7 +23,7 @@ const Title = styled.span `
   font-size: 1.5rem;
 `;
 
-const Summary = styled.span `
+const Summary = styled.p `
   text-align: justify;
   text-justify: inter-word;
 `;

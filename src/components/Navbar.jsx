@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
+import {Link} from "react-scroll";
 
 const Container = styled.div `
   height: 10vh;
@@ -19,6 +20,7 @@ const Name = styled.div `
   font-size: 1.3rem;
   font-weight: bold;
   color: white;
+  cursor: pointer;
 `;
 
 const Right = styled.div `
@@ -71,26 +73,39 @@ const Button = styled.button `
 
 const Navbar = () => {
     return (
-        <Container>
-            <Left>
-                <Name>
-                    Nischal
-                </Name>
-            </Left>
-            <Right>
-                <List>
-                    <UnorderedList>
-                        <ListItem>About</ListItem>
-                        <ListItem>Experience</ListItem>
-                        <ListItem>Skills</ListItem>
-                        <ListItem>Testimonials</ListItem>
-                    </UnorderedList>
-                </List>
-                <Button>
-                    Resume/CV
-                </Button>
-            </Right>
-        </Container>
+        <section id="navbar">
+            <Container>
+                <Left>
+                    <Link spy={true} to="navbar" smooth={true} activeClass='activeClass'>
+                        <Name>Nischal</Name>
+                    </Link>
+                </Left>
+                <Right>
+                    <List>
+                        <UnorderedList>
+                            <Link spy={true} to="navbar" smooth={true} activeClass='activeClass'>
+                                <ListItem>About</ListItem>
+                            </Link>
+                            <Link spy={true} to="timelineStructure" smooth={true} activeClass='activeClass'>
+                                <ListItem>Experience</ListItem>
+                            </Link>
+                            <Link spy={true} to="skills" smooth={true} activeClass='activeClass'>
+                                <ListItem>Skills</ListItem>
+                            </Link>
+                            <Link spy={true} to="testimonials" smooth={true} activeClass='activeClass'>
+                                <ListItem>Testimonials</ListItem>
+                            </Link>
+                            <Link spy={true} to="projects" smooth={true} activeClass='activeClass'>
+                                <ListItem>Projects</ListItem>
+                            </Link>
+                        </UnorderedList>
+                    </List>
+                    <Button>
+                        Resume/CV
+                    </Button>
+                </Right>
+            </Container>
+        </section>
     );
 };
 
