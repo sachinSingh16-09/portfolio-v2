@@ -19,15 +19,30 @@ const IconImage = styled.img `
 
 const Text = styled.span ``;
 
-const FloatingDiv = ({image, text1, text2}) => {
+const LogoIcon = styled.img `
+  height: 50px;
+  width: 50px;
+`;
+
+const FloatingDiv = ({image, type, text1, text2, icon1, icon2}) => {
     return (
         <Container>
-            <IconImage src={image} alt="" />
-            <Text>
-                {text1}
-                <br/>
-                {text2}
-            </Text>
+            {
+                type === 'text' ?
+                    <>
+                        <IconImage src={image} alt="" />
+                        <Text>
+                            {text1}
+                            <br/>
+                            {text2}
+                        </Text>
+                    </>
+                :
+                <>
+                    <LogoIcon src={icon1} alt="" />
+                    <LogoIcon src={icon2} alt="" />
+                </>
+            }
         </Container>
     );
 };

@@ -8,14 +8,18 @@ import Vector2 from '../assests/Vector2.png';
 import Coder from '../assests/coder.webp';
 import FloatingDiv from "./FloatingDiv";
 import DevelopingIcon from '../assests/developing.png';
-import BackendAndFrontendIcon from '../assests/backend.png';
-import WorldWideWebIcon from '../assests/world-wide-web.png';
+import CSharpIcon from "../assests/c-sharp.png"
+import JavaScriptIcon from "../assests/java-script.png";
+import JavaIcon from "../assests/java.png"
+import SpringBootIcon from "../assests/spring-boot-logo.png"
+import DotNetIcon from "../assests/net-logo.png"
+import ReactIcon from "../assests/react.png"
 
 const Container = styled.div `
   display: flex;
-  height: 77vh;
-  margin-top: 6rem;
+  margin-top: 4rem;
   border-bottom: 0.5px solid wheat;
+  padding-bottom: 3rem;
 `;
 
 const Left = styled.div `
@@ -44,7 +48,7 @@ const NameText = styled.span `
 `;
 
 const IntroText = styled.span `
-  font-size: 14px;
+  font-size: 1rem;
   color: wheat;
   margin-top: 10px;
 `;
@@ -69,7 +73,7 @@ const ContactMeButton = styled.button `
 `;
 
 const Icons = styled.div `
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   display: flex;
   gap: 2rem;
 `;
@@ -77,16 +81,19 @@ const Icons = styled.div `
 const Mail = styled.img `
   height: 50px;
   width: 50px;
+  cursor: pointer;
 `;
 
 const LinkedIn = styled.img `
   height: 50px;
   width: 50px;
+  cursor: pointer;
 `;
 
 const GitHub = styled.img `
   height: 50px;
   width: 50px;
+  cursor: pointer;
 `;
 
 const Right = styled.div `
@@ -115,50 +122,64 @@ const CoderImage = styled.img `
   transform: scale(0.8);
 `;
 
-const WorldWideWebImage = styled.img `
-  transform: scale(0.7);
-  left: -10%;
-  padding: 0;
-  border-radius: 50%;
-`;
-
 const WebDeveloperDiv = styled.div `
-  top: 4%;
-  left: 60%;
+  top: 8%;
+  left: 65%;
 `;
 
-const BackendAndFrontendDiv = styled.div `
+const JavaDiv = styled.div `
   top: 18rem;
   left: 0;
 `;
 
+const JavaScriptDiv = styled.div `
+  left: 65%;
+  top: 18rem;
+`;
+
+const CSharpDiv = styled.div `
+  top: 8%;
+  left: -2%;`;
+
 const About = () => {
+
     return (
         <Container>
             <Left>
                 <Name>
                     <DummyText>Hi! I am</DummyText>
                     <NameText>Nischal Dwaral</NameText>
-                    <IntroText>Full Stack Developer with high level of experience in web designing and development, producing quality work</IntroText>
+                    <IntroText>
+                        I'm a full-stack developer passionate about building things that make a difference. 🚀
+                        <br/><br/>
+                        🎓 3 years of real-world experience in web application development
+                        <br/><br/>
+                        🌍 Worked in various industries, from e-commerce giants to conversational AI innovators, as well as in the renewable energy sector.
+                    </IntroText>
                 </Name>
-                <ContactMeButton>Contact Me</ContactMeButton>
+                <ContactMeButton onClick={() => window.location.href = 'mailto:nischal.dwaral@gmail.com'}>Contact Me</ContactMeButton>
                 <Icons>
-                    <Mail src={MailIcon}/>
-                    <LinkedIn src={LinkedInIcon}/>
-                    <GitHub src={GitHubIcon}/>
+                    <Mail src={MailIcon} onClick={() => window.location.href = 'mailto:nischal.dwaral@gmail.com'}/>
+                    <LinkedIn src={LinkedInIcon} onClick={() => window.open('https://www.linkedin.com/in/nischal-srinivas-dwaral/', '_blank')}/>
+                    <GitHub src={GitHubIcon} onClick={() => window.open('https://github.com/Nischal-S-Dwaral', '_blank')}/>
                 </Icons>
             </Left>
             <Right>
                 <Vector1Image src={Vector1}/>
                 <Vector2Image src={Vector2}/>
                 <CoderImage src={Coder}/>
-                <WorldWideWebImage src={WorldWideWebIcon}/>
                 <WebDeveloperDiv>
-                    <FloatingDiv image={DevelopingIcon} text1="Web" text2="Developer"/>
+                    <FloatingDiv image={DevelopingIcon} text1="Full Stack" text2="Developer" type="text"/>
                 </WebDeveloperDiv>
-                <BackendAndFrontendDiv>
-                    <FloatingDiv image={BackendAndFrontendIcon} text1="Backend &" text2="Frontend"/>
-                </BackendAndFrontendDiv>
+                <JavaDiv>
+                    <FloatingDiv icon1={JavaIcon} icon2={SpringBootIcon}/>
+                </JavaDiv>
+                <JavaScriptDiv>
+                    <FloatingDiv icon1={JavaScriptIcon} icon2={ReactIcon}/>
+                </JavaScriptDiv>
+                <CSharpDiv>
+                    <FloatingDiv icon1={CSharpIcon} icon2={DotNetIcon}/>
+                </CSharpDiv>
             </Right>
         </Container>
     );

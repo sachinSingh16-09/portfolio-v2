@@ -65,9 +65,9 @@ const Footer = () => {
                     Built with <span style={{ fontWeight: 'bold' }}>React.Js</span>, deployed with GitHub pages.
                 </Text>
                 <Icons>
-                    <Mail src={MailIcon}/>
-                    <LinkedIn src={LinkedInIcon}/>
-                    <GitHub src={GitHubIcon}/>
+                    <Mail src={MailIcon} onClick={() => window.location.href = 'mailto:nischal.dwaral@gmail.com'}/>
+                    <LinkedIn src={LinkedInIcon} onClick={() => window.open('https://www.linkedin.com/in/nischal-srinivas-dwaral/', '_blank')}/>
+                    <GitHub src={GitHubIcon} onClick={() => window.open('https://github.com/Nischal-S-Dwaral', '_blank')}/>
                 </Icons>
             </Content>
         </Container>
