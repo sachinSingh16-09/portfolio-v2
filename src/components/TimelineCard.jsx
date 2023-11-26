@@ -27,7 +27,8 @@ const AccordionSummaryHeader = styled.span `
 
 const AccordionSummaryFooter = styled.span `
   margin: 0;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  color: wheat;
 `;
 
 const Details = styled.div `

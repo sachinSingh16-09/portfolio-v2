@@ -70,3 +70,40 @@ export const journey = [
         ],
     },
 ]
+
+export const projects = [
+    {
+        title: "Comment Scanner",
+        summary: "This is the summary of the project",
+        githubLink: "https://github.com/your-username/your-repository",
+        demoLink: "https://your-demo-link",
+        technologies: ["1", "2", "3", "4"],
+    },
+    {
+        title: "Comment Scanner",
+        summary: "This is the summary of the project",
+        githubLink: "https://github.com/your-username/your-repository",
+        demoLink: "https://your-demo-link",
+        technologies: ["1", "2", "3", "4"],
+    },
+    {
+        title: "Comment Scanner",
+        summary: "This is the summary of the project",
+        githubLink: "https://github.com/your-username/your-repository",
+        technologies: ["1", "2", "3", "4"],
+    },
+    {
+        title: "Comment Scanner",
+        summary: "This is the summary of the project",
+        githubLink: "https://github.com/your-username/your-repository",
+        demoLink: "https://your-demo-link",
+        technologies: ["1", "2", "3", "4"],
+    },
+    {
+        title: "Comment Scanner",
+        summary: "This is the summary of the project",
+        githubLink: "https://github.com/your-username/your-repository",
+        demoLink: "https://your-demo-link",
+        technologies: ["1", "2", "3", "4"],
+    }
+];

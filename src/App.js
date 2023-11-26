@@ -7,6 +7,7 @@ import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 const theme = createTheme({
     typography: {
@@ -31,6 +32,7 @@ function App() {
               <TimelineStructure/>
               <Skills/>
               <Testimonials/>
+              <Projects/>
               <Footer/>
           </Container>
       </ThemeProvider>
