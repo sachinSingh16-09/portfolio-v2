@@ -21,6 +21,7 @@ import PostmanIcon from "../assests/postman.png"
 import JiraIcon from "../assests/jira.png"
 import JenkinsIcon from "../assests/jenkins.webp"
 import GrafanaIcon from "../assests/grafana.png"
+import {mobile} from "../responsive";
 
 const Container = styled.div `
   display: flex;
@@ -40,6 +41,12 @@ const Cards = styled.div `
   display: flex;
   justify-content: space-between;
   margin-bottom: 3rem;
+  
+  ${mobile({
+    flexDirection: "column",
+    gap: "1rem",
+    alignItems: "center"
+  })}
 `;
 
 const CardContainer = styled.div ``;

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import ProjectCard from "./ProjectsCard";
 import {projects} from "../data";
+import {mobile} from "../responsive";
 
 const Container = styled.div `
   display: flex;
@@ -23,6 +24,12 @@ const CardsDivMain = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat({$props.columns}, 1fr);
   gap: 1rem;
+
+  ${mobile({
+    display: 'flex',
+    flexDirection: "column",
+    gap: '1rem'
+  })}
 `;
 
 const Projects = () => {

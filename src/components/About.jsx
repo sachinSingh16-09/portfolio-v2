@@ -14,12 +14,18 @@ import JavaIcon from "../assests/java.png"
 import SpringBootIcon from "../assests/spring-boot-logo.png"
 import DotNetIcon from "../assests/net-logo.png"
 import ReactIcon from "../assests/react.png"
+import {mobile} from "../responsive";
 
 const Container = styled.div `
   display: flex;
   margin-top: 4rem;
   border-bottom: 0.5px solid wheat;
   padding-bottom: 3rem;
+
+  ${mobile({
+    flexDirection: "column",
+    height: "64rem"
+  })}
 `;
 
 const Left = styled.div `
@@ -76,6 +82,10 @@ const Icons = styled.div `
   margin-top: 1.5rem;
   display: flex;
   gap: 2rem;
+  
+  ${mobile({
+    justifyContent: "center"
+  })}
 `;
 
 const Mail = styled.img `
@@ -104,6 +114,11 @@ const Right = styled.div `
     position: absolute;
     z-index: 1;
   }
+
+  ${mobile({
+    transform: "scale(0.75)",
+    left: "-5rem"
+  })}
 `;
 
 const Vector1Image = styled.img `
@@ -125,21 +140,42 @@ const CoderImage = styled.img `
 const WebDeveloperDiv = styled.div `
   top: 8%;
   left: 65%;
+
+  ${mobile({
+    top: "8%",
+    left: "100%"
+  })}
 `;
 
 const JavaDiv = styled.div `
   top: 18rem;
   left: 0;
+
+  ${mobile({
+    top: "18rem",
+    left: "15%"
+  })}
 `;
 
 const JavaScriptDiv = styled.div `
   left: 65%;
   top: 18rem;
+
+  ${mobile({
+    top: "18rem",
+    left: "100%"
+  })}
 `;
 
 const CSharpDiv = styled.div `
   top: 8%;
-  left: -2%;`;
+  left: -2%;
+
+  ${mobile({
+    top: "8%",
+    left: "15%"
+  })}
+`;
 
 const About = () => {
 

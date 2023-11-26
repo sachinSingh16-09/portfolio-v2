@@ -4,6 +4,7 @@ import WaveBackground from "../assests/wave.png"
 import MailIcon from '../assests/gmail.png';
 import LinkedInIcon from '../assests/linkedin.png';
 import GitHubIcon from '../assests/github.png';
+import {mobile} from "../responsive";
 
 const Container = styled.div `
   display: flex;
@@ -24,11 +25,19 @@ const Content = styled.div `
   justify-content: center;
   width: 100%;
   margin-top: 4rem;
+
+  ${mobile({
+    marginTop: '2rem'
+  })}
 `;
 
 const Text = styled.span `
   color: white;
   text-align: center;
+  
+  ${mobile({
+    display: 'none'
+  })}
 `;
 
 const Icons = styled.div `

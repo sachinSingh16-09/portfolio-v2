@@ -5,6 +5,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import {recommendations} from "../data";
+import {mobile} from "../responsive";
 
 const Container = styled.div `
   display: flex;
@@ -18,6 +19,10 @@ const Container = styled.div `
 const TitleContainer = styled.div `
   display: flex;
   align-items: baseline;
+
+  ${mobile({
+    flexDirection: "column"
+  })}
 `;
 
 const Title = styled.span `

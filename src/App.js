@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
+import {mobile} from "./responsive";
 
 const theme = createTheme({
     typography: {
@@ -20,6 +21,10 @@ const Container = styled.div `
   overflow: hidden;
   color: #242D49;
   background: black;
+
+  ${mobile({
+    padding: "0.5rem 1rem"
+  })}
 `;
 
 function App() {
