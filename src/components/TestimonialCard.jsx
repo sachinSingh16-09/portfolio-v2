@@ -7,6 +7,7 @@ const Container = styled.div `
   display: flex;
   justify-content: center;
   width: 100%;
+  align-items: center;
 `;
 
 const InternalContainer = styled.div `
@@ -45,6 +46,8 @@ const Bottom = styled.div ``;
 const BottomText = styled.p `
   font-size: 0.8rem;
   white-space: pre-line;
+  text-align: justify;
+  text-justify: inter-word;
 `;
 
 const TestimonialCard = ({ gender, name, relation, text }) => {
@@ -65,7 +68,7 @@ const TestimonialCard = ({ gender, name, relation, text }) => {
                     </NameContainer>
                 </Top>
                 <Bottom>
-                    <BottomText>
+                    <BottomText style={{ whiteSpace: 'pre-line' }}>
                         {text}
                     </BottomText>
                 </Bottom>

@@ -12,6 +12,11 @@ const Container = styled.div `
   border-radius: 20px;
   border: 7px solid rgba(252, 166, 31, 0.45);
   padding: 0.3rem;
+  transition: all 0.5s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 const Title = styled.span `

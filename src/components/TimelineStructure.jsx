@@ -36,7 +36,6 @@ const TimelineStructure = () => {
                         type={entry.type}
                         period={entry.period}
                         summary={entry.summary}
-                        points={entry.points}
                     />
                 ))}
             </Timeline>

@@ -23,11 +23,15 @@ const Title = styled.span `
   font-size: 1.5rem;
 `;
 
-const Summary = styled.span ``;
+const Summary = styled.span `
+  text-align: justify;
+  text-justify: inter-word;
+`;
 
 const Technology = styled.div `
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 `;
 
 const TechnologyText = styled.div `
@@ -46,8 +50,9 @@ const GithubButton = styled.button `
   display: flex;
   align-items: center;
   gap: 0.3rem;
-  padding: 0.2rem;
+  padding: 0.5rem;
   border-radius: 10px;
+  cursor: pointer;
 `;
 
 const DemoButton = styled.button `
@@ -56,6 +61,7 @@ const DemoButton = styled.button `
   gap: 0.3rem;
   padding: 0.5rem;
   border-radius: 10px;
+  cursor: pointer;
 `;
 
 const ProjectCard = ({ title, summary, technologies, githubLink, demoLink }) => {

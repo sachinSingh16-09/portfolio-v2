@@ -45,22 +45,11 @@ const Period = styled.span `
 const Summary = styled.span `
   font-size: 0.8rem;
   margin: 0.2rem 0;
-  text-align: ${(props) => (props.isOdd ? 'left' : 'right')};
+  text-align: justify;
+  text-justify: inter-word;
 `;
 
-const PointsList = styled.ul`
-  margin: 0;
-  padding: 0;
-  list-style-type: disc;
-  text-align: ${(props) => (props.isOdd ? 'left' : 'right')};
-`;
-
-const PointItem = styled.li`
-  font-size: 0.7rem;
-  margin: 0.2rem 0;
-`;
-
-const TimelineCard = ({ key, timeline, header, footer, type, period, summary, points }) => {
+const TimelineCard = ({ timeline, header, footer, type, period, summary }) => {
 
     return (
         <TimelineItem>
@@ -99,14 +88,7 @@ const TimelineCard = ({ key, timeline, header, footer, type, period, summary, po
                     <AccordionDetails>
                         <Period>{period}</Period>
                         <Details>
-                            <Summary isOdd={key % 2 !== 0}>{summary}</Summary>
-                            {points.length > 0 && (
-                                <PointsList isOdd={key % 2 !== 0}>
-                                    {points.map((point, index) => (
-                                        <PointItem key={index}>{point}</PointItem>
-                                    ))}
-                                </PointsList>
-                            )}
+                            <Summary>{summary}</Summary>
                         </Details>
                     </AccordionDetails>
                 </Accordion>
