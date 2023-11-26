@@ -2,13 +2,13 @@ import React from 'react';
 import styled from "styled-components";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import TimelineStructure from "./components/TimelineStructure";
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
 import {mobile} from "./responsive";
+import Journey from "./components/Journey";
 
 const theme = createTheme({
     typography: {
@@ -34,7 +34,7 @@ function App() {
           <Container>
               <Navbar/>
               <About/>
-              <TimelineStructure/>
+              <Journey/>
               <Skills/>
               <Testimonials/>
               <Projects/>

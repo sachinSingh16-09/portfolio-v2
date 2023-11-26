@@ -1,8 +1,9 @@
 import React from 'react';
-import {Timeline} from "@mui/lab";
-import TimelineCard from "./TimelineCard";
-import styled from "styled-components";
+import { VerticalTimeline }  from 'react-vertical-timeline-component';
 import {journey} from "../data";
+import "react-vertical-timeline-component/style.min.css";
+import styled from "styled-components";
+import JourneyItem from "./JourneyItem";
 
 const Container = styled.div `
   display: flex;
@@ -19,17 +20,16 @@ const Title = styled.div `
   font-weight: bold;
 `;
 
-const TimelineStructure = () => {
-
+const Journey = () => {
     return (
-        <section id="TimelineStructure">
+        <section id="timelineStructure">
             <Container>
                 <Title>
                     Journey so far
                 </Title>
-                <Timeline position="alternate">
+                <VerticalTimeline lineColor="#fff">
                     {journey.map((entry, index) => (
-                        <TimelineCard
+                        <JourneyItem
                             key={index}
                             timeline={entry.timeline}
                             header={entry.header}
@@ -39,10 +39,11 @@ const TimelineStructure = () => {
                             summary={entry.summary}
                         />
                     ))}
-                </Timeline>
+                </VerticalTimeline>
             </Container>
         </section>
+
     );
 };
 
-export default TimelineStructure;
+export default Journey;

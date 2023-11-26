@@ -10,7 +10,6 @@ const Container = styled.div `
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   transition: all 0.5s ease;
 
   &:hover {
@@ -21,6 +20,7 @@ const Container = styled.div `
 const Title = styled.span `
   font-weight: bold;
   font-size: 1.5rem;
+  padding: 0;
 `;
 
 const Summary = styled.p `
@@ -44,6 +44,7 @@ const TechnologyText = styled.div `
 const ButtonContainer = styled.div `
   display: flex;
   gap: 0.5rem;
+  margin-top: 1rem;
 `;
 
 const GithubButton = styled.button `
