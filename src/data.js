@@ -54,7 +54,7 @@ export const projects = [
         title: "Comment Scanner - UI",
         summary: "It is a web-based application that provides a comprehensive solution for analysing documentation comments in your Java based codebase hosted on GitHub. The features includes secure user authentication, GitHub project setup, documentation comments analysis, display of summary metrics and Java code views, enforcement of project coverage percentages through quality gates, and a robust access control system.",
         githubLink: "https://github.com/Nischal-S-Dwaral/comment-scanner-ui",
-        demoLink: "https://your-demo-link",
+        demoLink: "https://6564823daf5aa3381a98dc0e--dreamy-meerkat-321cf9.netlify.app/",
         technologies: ["React JS", "Firebase", "Persistent Storage"]
     },
     {
@@ -67,7 +67,6 @@ export const projects = [
         title: "Find Service - UI",
         summary: "The platform connects customers with service providers by enabling providers to publish service offerings and availability and allowing customers to discover, request, and pay for local services. It incorporates core functionality like user accounts, search, map representation, and reviews along with responsiveness for a seamless experience across devices.",
         githubLink: "https://github.com/Nischal-S-Dwaral/FindService",
-        demoLink: "",
         technologies: ["React JS", "Firebase", "Gmail Login", "Google Maps API"]
     },
     {
