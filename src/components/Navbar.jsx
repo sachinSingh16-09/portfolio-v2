@@ -2,6 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {Link} from "react-scroll";
 import {mobile} from "../responsive";
+import CV from "../assests/CV_Nischal_Dwaral.pdf";
 
 const Container = styled.div `
   height: 10vh;
@@ -105,9 +106,11 @@ const Navbar = () => {
                             </Link>
                         </UnorderedList>
                     </List>
-                    <Button>
-                        Resume/CV
-                    </Button>
+                    <a href={CV} download="CV_Nischal_Dwaral" target='_blank' rel="noopener noreferrer">
+                        <Button>
+                            Resume/CV
+                        </Button>
+                    </a>
                 </Right>
             </Container>
         </section>
