@@ -67,6 +67,7 @@ export const projects = [
         title: "Find Service - UI",
         summary: "The platform connects customers with service providers by enabling providers to publish service offerings and availability and allowing customers to discover, request, and pay for local services. It incorporates core functionality like user accounts, search, map representation, and reviews along with responsiveness for a seamless experience across devices.",
         githubLink: "https://github.com/Nischal-S-Dwaral/FindService",
+        demoLink: "https://656a1b9b824ffc1c0b24d3b6--mellow-otter-d18a99.netlify.app/",
         technologies: ["React JS", "Firebase", "Gmail Login", "Google Maps API"]
     },
     {
