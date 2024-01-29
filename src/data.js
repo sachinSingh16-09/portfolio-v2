@@ -1,18 +1,26 @@
 export const journey = [
     {
+        header: 'Software Development Engineer: CRM',
+        footer: 'University of Southampton',
+        timeline: 'January 2024',
+        type: 'work',
+        period: 'December 2023 - January 2024 [Contract Freelance]',
+        summary: 'Developed a comprehensive library of dynamic email templates for MS Dynamics CRM within a 2-month contract, achieving a 15% surge in inquiries from prospective students, significantly boosting program awareness and enrollment potential.'
+    },
+    {
         header: 'MSc in Computer Science',
         footer: 'University of Southampton',
         timeline: 'September 2023',
         type: 'graduation',
         period: 'September 2022 - September 2023',
-        summary: 'I completed my masters with first class honors, gaining technical expertise through software engineering and development projects done collaboratively in teams. For my dissertation I developed a platform to improve code quality by monitoring Java documentation in a codebase, and courseworks emphasised project management methodologies, communication skills, and working effectively across cultures and distances.',
+        summary: 'I completed my masters with distinction, gaining technical expertise through software engineering and development projects done collaboratively in teams. For my dissertation I developed a platform to improve code quality by monitoring Java documentation in a codebase, and coursework emphasised project management methodologies, communication skills, and working effectively across cultures and distances.',
     },
     {
         header: 'Full Stack Developer',
         footer: 'Absolar Solutions',
         timeline: 'June 2023',
         type: 'work',
-        period: 'June 2023 - August 2023',
+        period: 'June 2023 - September 2023 [Contract Freelance]',
         summary: 'Collaborated closely with product owners to develop business analytics solutions, including a customer analytics dashboard (improving service quality 20%) and GIS application (reducing task time 30+ minutes). Leveraged technologies like Google Analytics, .NET, C#, and ReactJS to enhance data visualisation and insights in support of key business metrics.'
     },
     {
@@ -33,7 +41,7 @@ export const journey = [
     },
     {
         header: 'BE in Information Science',
-        footer: 'Bangalore University',
+        footer: 'Bangalore University (U.V.C.E)',
         timeline: 'August 2020',
         type: 'graduation',
         period: 'August 2016 - August 2020',

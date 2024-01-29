@@ -8,11 +8,11 @@ import Vector2 from '../assests/Vector2.png';
 import Coder from '../assests/coder.webp';
 import FloatingDiv from "./FloatingDiv";
 import DevelopingIcon from '../assests/developing.png';
-import CSharpIcon from "../assests/c-sharp.png"
 import JavaScriptIcon from "../assests/java-script.png";
 import JavaIcon from "../assests/java.png"
 import SpringBootIcon from "../assests/spring-boot-logo.png"
-import DotNetIcon from "../assests/net-logo.png"
+import SqlIcon from "../assests/sql.png"
+import NoSqlIcon from "../assests/nosql.png"
 import ReactIcon from "../assests/react.png"
 import {mobile} from "../responsive";
 
@@ -208,13 +208,13 @@ const About = () => {
                     <FloatingDiv image={DevelopingIcon} text1="Full Stack" text2="Developer" type="text"/>
                 </WebDeveloperDiv>
                 <JavaDiv>
-                    <FloatingDiv icon1={JavaIcon} icon2={SpringBootIcon}/>
+                    <FloatingDiv icon1={JavaScriptIcon} icon2={ReactIcon}/>
                 </JavaDiv>
                 <JavaScriptDiv>
-                    <FloatingDiv icon1={JavaScriptIcon} icon2={ReactIcon}/>
+                    <FloatingDiv icon1={SqlIcon} icon2={NoSqlIcon}/>
                 </JavaScriptDiv>
                 <CSharpDiv>
-                    <FloatingDiv icon1={CSharpIcon} icon2={DotNetIcon}/>
+                    <FloatingDiv icon1={JavaIcon} icon2={SpringBootIcon}/>
                 </CSharpDiv>
             </Right>
         </Container>

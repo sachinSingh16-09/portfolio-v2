@@ -40,8 +40,6 @@ const Period = styled.span `
 const Summary = styled.span `
   font-size: 0.8rem;
   margin: 0.2rem 0;
-  text-align: justify;
-  text-justify: inter-word;
 `;
 
 const JourneyItem = ({timeline, header, footer, period, summary, type}) => {

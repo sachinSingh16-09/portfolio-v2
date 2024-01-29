@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import {Link} from "react-scroll";
 import {mobile} from "../responsive";
-import CV from "../assests/CV_Nischal_Dwaral.pdf";
+import CV from "../assests/Resume_Nischal_Dwaral.pdf";
 
 const Container = styled.div `
   height: 10vh;

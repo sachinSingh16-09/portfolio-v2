@@ -24,8 +24,6 @@ const Title = styled.span `
 `;
 
 const Summary = styled.p `
-  text-align: justify;
-  text-justify: inter-word;
 `;
 
 const Technology = styled.div `
