@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e24582b474058b0a6159a3e3b1ff4341",
+    "revision": "204ea9fdeca44a76ee197e3adefa989b",
     "url": "/portfolio-v2/index.html"
   },
   {
-    "revision": "3b4d43815274fcb871cd",
+    "revision": "5887ed373a02555be275",
     "url": "/portfolio-v2/static/css/2.0e31c611.chunk.css"
   },
   {
-    "revision": "3b4d43815274fcb871cd",
-    "url": "/portfolio-v2/static/js/2.3dc7aca4.chunk.js"
+    "revision": "5887ed373a02555be275",
+    "url": "/portfolio-v2/static/js/2.33ef72e0.chunk.js"
   },
   {
     "revision": "a6a6f2517c7a12ff148c384e26113c97",
-    "url": "/portfolio-v2/static/js/2.3dc7aca4.chunk.js.LICENSE.txt"
+    "url": "/portfolio-v2/static/js/2.33ef72e0.chunk.js.LICENSE.txt"
   },
   {
     "revision": "92a8bb91428f45b1cb83",
     "url": "/portfolio-v2/static/js/3.11a81b32.chunk.js"
   },
   {
-    "revision": "196eb840f56c8f7b1575",
-    "url": "/portfolio-v2/static/js/main.71ad970f.chunk.js"
+    "revision": "db11d124845c93a004dd",
+    "url": "/portfolio-v2/static/js/main.079e5a18.chunk.js"
   },
   {
     "revision": "2c7e42f3dfeffc74229b",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "984acdaba6d70082bdf29805de96120b",
     "url": "/portfolio-v2/static/media/coder.984acdab.webp"
+  },
+  {
+    "revision": "81cf3e14189bb7b6c6042478d10c586c",
+    "url": "/portfolio-v2/static/media/flask-python-icon.81cf3e14.png"
   },
   {
     "revision": "af96d4b7102bbd274d71e8145df66a13",
@@ -68,10 +72,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-v2/static/media/linkedin.d492efc7.png"
   },
   {
-    "revision": "215e3bfec4268badf069ca91af2bf43b",
-    "url": "/portfolio-v2/static/media/net-logo.215e3bfe.png"
-  },
-  {
     "revision": "076303a788705113dc6cebc4fe59a02d",
     "url": "/portfolio-v2/static/media/nosql.076303a7.png"
   },
@@ -86,9 +86,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0881daccb5178410b18a1a36984da095",
     "url": "/portfolio-v2/static/media/spring-boot-logo.0881dacc.png"
-  },
-  {
-    "revision": "eb373e5d81f466262ff73eaffbc559ca",
-    "url": "/portfolio-v2/static/media/wave.eb373e5d.png"
   }
 ]);
