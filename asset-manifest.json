@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.js": "/portfolio-v2/static/js/main.3eb4f0b7.chunk.js",
+    "main.js.map": "/portfolio-v2/static/js/main.3eb4f0b7.chunk.js.map",
+    "runtime-main.js": "/portfolio-v2/static/js/runtime-main.97f8fa5b.js",
+    "runtime-main.js.map": "/portfolio-v2/static/js/runtime-main.97f8fa5b.js.map",
+    "static/css/2.0e31c611.chunk.css": "/portfolio-v2/static/css/2.0e31c611.chunk.css",
+    "static/js/2.3dc7aca4.chunk.js": "/portfolio-v2/static/js/2.3dc7aca4.chunk.js",
+    "static/js/2.3dc7aca4.chunk.js.map": "/portfolio-v2/static/js/2.3dc7aca4.chunk.js.map",
+    "static/js/3.11a81b32.chunk.js": "/portfolio-v2/static/js/3.11a81b32.chunk.js",
+    "static/js/3.11a81b32.chunk.js.map": "/portfolio-v2/static/js/3.11a81b32.chunk.js.map",
+    "index.html": "/portfolio-v2/index.html",
+    "precache-manifest.d83ac1d4822a4b8f773cc813e02fa011.js": "/portfolio-v2/precache-manifest.d83ac1d4822a4b8f773cc813e02fa011.js",
+    "service-worker.js": "/portfolio-v2/service-worker.js",
+    "static/css/2.0e31c611.chunk.css.map": "/portfolio-v2/static/css/2.0e31c611.chunk.css.map",
+    "static/js/2.3dc7aca4.chunk.js.LICENSE.txt": "/portfolio-v2/static/js/2.3dc7aca4.chunk.js.LICENSE.txt",
+    "static/media/Resume_Nischal_Dwaral.pdf": "/portfolio-v2/static/media/Resume_Nischal_Dwaral.fa239a57.pdf",
+    "static/media/Vector2.png": "/portfolio-v2/static/media/Vector2.b7b72ee2.png",
+    "static/media/aws.png": "/portfolio-v2/static/media/aws.c7401f52.png",
+    "static/media/coder.webp": "/portfolio-v2/static/media/coder.984acdab.webp",
+    "static/media/github.png": "/portfolio-v2/static/media/github.af96d4b7.png",
+    "static/media/gmail.png": "/portfolio-v2/static/media/gmail.2c1a7560.png",
+    "static/media/grafana.png": "/portfolio-v2/static/media/grafana.58b24d8f.png",
+    "static/media/jenkins.webp": "/portfolio-v2/static/media/jenkins.6c022ca6.webp",
+    "static/media/kuberenetes.png": "/portfolio-v2/static/media/kuberenetes.ea798a7a.png",
+    "static/media/linkedin.png": "/portfolio-v2/static/media/linkedin.d492efc7.png",
+    "static/media/net-logo.png": "/portfolio-v2/static/media/net-logo.215e3bfe.png",
+    "static/media/nosql.png": "/portfolio-v2/static/media/nosql.076303a7.png",
+    "static/media/postman.png": "/portfolio-v2/static/media/postman.7afd2130.png",
+    "static/media/redis.png": "/portfolio-v2/static/media/redis.8a65e61b.png",
+    "static/media/spring-boot-logo.png": "/portfolio-v2/static/media/spring-boot-logo.0881dacc.png",
+    "static/media/wave.png": "/portfolio-v2/static/media/wave.eb373e5d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97f8fa5b.js",
+    "static/css/2.0e31c611.chunk.css",
+    "static/js/2.3dc7aca4.chunk.js",
+    "static/js/main.3eb4f0b7.chunk.js"
+  ]
+}
