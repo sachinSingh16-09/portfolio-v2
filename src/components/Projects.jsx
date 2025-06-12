@@ -13,7 +13,7 @@ const Container = styled.div `
 `;
 
 const Title = styled.span `
-  color: #FCA61F;
+  color:rgb(252, 31, 241);
   font-size: 3rem;
   font-weight: bold;
 `;
@@ -52,7 +52,7 @@ const Projects = () => {
                                 title={entry.title}
                                 summary={entry.summary}
                                 githubLink={entry.githubLink}
-                                demoLink={entry.demoLink}
+                                // demoLink={entry.demoLink}
                                 technologies={entry.technologies}
                             />
                         ))

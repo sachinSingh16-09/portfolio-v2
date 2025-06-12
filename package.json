@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Nischal-S-Dwaral.github.io/portfolio-v2",
+  "homepage": "https://sachinSingh16-09.github.io/portfolio-v2",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.3.0"
   }
 }

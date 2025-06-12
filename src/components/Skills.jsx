@@ -4,11 +4,11 @@ import SkillsCard from "./SkillsCard";
 import JavaIcon from "../assests/java.png"
 import CSharpIcon from "../assests/c-sharp.png"
 import JavaScriptIcon from "../assests/java-script.png"
-import TypeScriptIcon from "../assests/typescript.png"
+import PythonIcon from "../assests/python-logo.png"
 import SpringBootIcon from "../assests/spring-boot-logo.png"
 import ReactIcon from "../assests/react.png"
 import NodeJSIcon from "../assests/nodejs.png"
-import DotNetIcon from "../assests/net-logo.png"
+import FlaskIcon from "../assests/flask-python-icon.png"
 import MySQLIcon from "../assests/mysql.png"
 import PostgresIcon from "../assests/postgre.png"
 import RedisIcon from "../assests/redis.png"
@@ -32,7 +32,7 @@ const Container = styled.div `
 `;
 
 const Title = styled.div `
-  color: #FCA61F;
+  color: rgb(252, 31, 241);
   font-size: 3rem;
   font-weight: bold;
 `;
@@ -57,26 +57,26 @@ const Skills = () => {
         { title: "Java", image: JavaIcon },
         { title: "C#", image: CSharpIcon },
         { title: "JavaScript", image: JavaScriptIcon },
-        { title: "TypeScript", image: TypeScriptIcon },
+        { title: "Python", image: PythonIcon },
     ];
 
     const frameworks = [
         { title: "Spring Boot", image: SpringBootIcon },
         { title: "React", image: ReactIcon },
-        { title: "Dot Net", image: DotNetIcon },
+        { title: "Flask", image: FlaskIcon },
         { title: "Node JS", image: NodeJSIcon },
     ]
 
     const databases = [
         { title: "MySQL", image: MySQLIcon },
         { title: "PostgreSQL", image: PostgresIcon },
-        { title: "Redis", image: RedisIcon },
+        // { title: "Redis", image: RedisIcon },
         { title: "Mongo DB", image: MongoIcon },
     ]
 
     const platform = [
         { title: "Git", image: GitIcon },
-        { title: "Kubernetes", image: KubernetesIcon },
+        // { title: "Kubernetes", image: KubernetesIcon },
         { title: "AWS", image: AWSIcon },
         { title: "Docker", image: DockerIcon },
     ]
@@ -117,12 +117,12 @@ const Skills = () => {
                             icons={platform}
                         />
                     </CardContainer>
-                    <CardContainer>
+                    {/* <CardContainer>
                         <SkillsCard
                             title="Tools"
                             icons={tools}
                         />
-                    </CardContainer>
+                    </CardContainer> */}
                 </Cards>
             </Container>
         </section>

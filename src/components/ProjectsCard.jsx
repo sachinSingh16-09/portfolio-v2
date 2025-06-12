@@ -35,7 +35,7 @@ const Technology = styled.div `
 const TechnologyText = styled.div `
   padding: 0.5rem;
   color: black;
-  background-color: #FCA61F;
+  background-color: rgb(252, 31, 241);
   border-radius: 5px;
 `;
 

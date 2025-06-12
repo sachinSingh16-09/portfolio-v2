@@ -10,6 +10,8 @@ import FloatingDiv from "./FloatingDiv";
 import DevelopingIcon from '../assests/developing.png';
 import JavaScriptIcon from "../assests/java-script.png";
 import JavaIcon from "../assests/java.png"
+import PythonIcon from "../assests/python-logo.png"
+import FlaskIcon from "../assests/flask-python-icon.png"
 import SpringBootIcon from "../assests/spring-boot-logo.png"
 import SqlIcon from "../assests/sql.png"
 import NoSqlIcon from "../assests/nosql.png"
@@ -48,7 +50,7 @@ const DummyText = styled.span `
 `;
 
 const NameText = styled.span `
-  color: #FCA61F;
+  color:rgb(252, 31, 241);
   font-size: 3rem;
   font-weight: bold;
 `;
@@ -73,8 +75,8 @@ const ContactMeButton = styled.button `
   &:hover {
     cursor: pointer;
     background: white;
-    color: #FCA61F;
-    border: 1px solid #FCA61F;
+    color: rgb(252, 31, 241);
+    border: 1px solid rgb(252, 31, 241);
   }
 `;
 
@@ -177,6 +179,16 @@ const CSharpDiv = styled.div `
   })}
 `;
 
+const PythonDiv = styled.div `
+  top: 37%;
+  left: -14%;
+
+  ${mobile({
+    top: "8%",
+    left: "10%"
+  })}
+`;
+
 const About = () => {
 
     return (
@@ -184,20 +196,18 @@ const About = () => {
             <Left>
                 <Name>
                     <DummyText>Hi! I am</DummyText>
-                    <NameText>Nischal Dwaral</NameText>
+                    <NameText>Sachin Singh</NameText>
                     <IntroText>
-                        I'm a full-stack developer passionate about building things that make a difference. 🚀
+                        I'm a Software developer Intern, passionate about building things. 🚀
                         <br/><br/>
-                        🎓 3 years of real-world experience in web application development
                         <br/><br/>
-                        🌍 Worked in various industries, from e-commerce giants to conversational AI innovators, as well as in the renewable energy sector.
                     </IntroText>
                 </Name>
-                <ContactMeButton onClick={() => window.location.href = 'mailto:nischal.dwaral@gmail.com'}>Contact Me</ContactMeButton>
+                <ContactMeButton onClick={() => window.location.href = 'mailto:sachinishu02@gmail.com'}>Contact Me</ContactMeButton>
                 <Icons>
-                    <Mail src={MailIcon} onClick={() => window.location.href = 'mailto:nischal.dwaral@gmail.com'}/>
-                    <LinkedIn src={LinkedInIcon} onClick={() => window.open('https://www.linkedin.com/in/nischal-srinivas-dwaral/', '_blank')}/>
-                    <GitHub src={GitHubIcon} onClick={() => window.open('https://github.com/Nischal-S-Dwaral', '_blank')}/>
+                    <Mail src={MailIcon} onClick={() => window.location.href = 'mailto:sachinishu02@gmail.com'}/>
+                    <LinkedIn src={LinkedInIcon} onClick={() => window.open('https://www.linkedin.com/in/sachin-singh-4249971a7/', '_blank')}/>
+                    <GitHub src={GitHubIcon} onClick={() => window.open('https://github.com/sachinSingh16-09', '_blank')}/>
                 </Icons>
             </Left>
             <Right>
@@ -205,11 +215,14 @@ const About = () => {
                 <Vector2Image src={Vector2}/>
                 <CoderImage src={Coder}/>
                 <WebDeveloperDiv>
-                    <FloatingDiv image={DevelopingIcon} text1="Full Stack" text2="Developer" type="text"/>
+                    <FloatingDiv image={DevelopingIcon} text1="Software Developer" text2="Intern" type="text"/>
                 </WebDeveloperDiv>
                 <JavaDiv>
                     <FloatingDiv icon1={JavaScriptIcon} icon2={ReactIcon}/>
                 </JavaDiv>
+                <PythonDiv>
+                    <FloatingDiv icon1={PythonIcon} icon2={FlaskIcon}/>
+                </PythonDiv>
                 <JavaScriptDiv>
                     <FloatingDiv icon1={SqlIcon} icon2={NoSqlIcon}/>
                 </JavaScriptDiv>

@@ -7,10 +7,10 @@ const Container = styled.div `
   align-items: center;
   width: 10rem;
   height: 12rem;
-  background: rgba(255, 255, 255, 0.50);
+  background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 19px 60px rgb(0 0 0 / 8%);
   border-radius: 20px;
-  border: 7px solid rgba(252, 166, 31, 0.45);
+  border: 7px solid rgba(252, 31, 204, 0.45);
   padding: 0.3rem;
   transition: all 0.5s ease;
 

@@ -15,7 +15,7 @@ const Container = styled.div `
 `;
 
 const Title = styled.div `
-  color: #FCA61F;
+  color: rgb(252, 31, 241);
   font-size: 3rem;
   font-weight: bold;
 `;

@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import WaveBackground from "../assests/wave.png"
+import WaveBackground from "../assests/purple-wave-with-black-background_148391-48403.png"
 import MailIcon from '../assests/gmail.png';
 import LinkedInIcon from '../assests/linkedin.png';
 import GitHubIcon from '../assests/github.png';
@@ -69,14 +69,14 @@ const Footer = () => {
         <Container>
             <BackgroundImage src={WaveBackground} alt="Background"/>
             <Content>
-                <Text>
+                {/* <Text>
                     Loosely designed in Figma and coded in Webstrom IDE by yours truly. <br/>
                     Built with <span style={{ fontWeight: 'bold' }}>React.Js</span>, deployed with GitHub pages.
-                </Text>
+                </Text> */}
                 <Icons>
-                    <Mail src={MailIcon} onClick={() => window.location.href = 'mailto:nischal.dwaral@gmail.com'}/>
-                    <LinkedIn src={LinkedInIcon} onClick={() => window.open('https://www.linkedin.com/in/nischal-srinivas-dwaral/', '_blank')}/>
-                    <GitHub src={GitHubIcon} onClick={() => window.open('https://github.com/Nischal-S-Dwaral', '_blank')}/>
+                    <Mail src={MailIcon} onClick={() => window.location.href = 'mailto:sachinishu02@gmail.com'}/>
+                    <LinkedIn src={LinkedInIcon} onClick={() => window.open('https://www.linkedin.com/in/sachin-singh-4249971a7/', '_blank')}/>
+                    <GitHub src={GitHubIcon} onClick={() => window.open('https://github.com/sachinSingh16-09', '_blank')}/>
                 </Icons>
             </Content>
         </Container>
