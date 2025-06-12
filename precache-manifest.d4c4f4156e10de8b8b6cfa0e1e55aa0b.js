@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99eb3a955405b66a7afd12b7575e7ca6",
+    "revision": "6b7694ffe22e2cfd7393b2efa0cbf659",
     "url": "/portfolio-v2/index.html"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-v2/static/js/3.11a81b32.chunk.js"
   },
   {
-    "revision": "f699e40f3efc53a05349",
-    "url": "/portfolio-v2/static/js/main.0c505c81.chunk.js"
+    "revision": "c74ce203e7bfbf087384",
+    "url": "/portfolio-v2/static/js/main.5677b52f.chunk.js"
   },
   {
     "revision": "2c7e42f3dfeffc74229b",
     "url": "/portfolio-v2/static/js/runtime-main.97f8fa5b.js"
   },
   {
-    "revision": "fa239a57ecdac9704415fbb7c0b1a052",
-    "url": "/portfolio-v2/static/media/Resume_Nischal_Dwaral.fa239a57.pdf"
+    "revision": "5b38b7fe9ca56cb782bfcfeed8c0b771",
+    "url": "/portfolio-v2/static/media/Resume_sachin(4).5b38b7fe.pdf"
   },
   {
     "revision": "b7b72ee27b480abe72189248cea33cae",
