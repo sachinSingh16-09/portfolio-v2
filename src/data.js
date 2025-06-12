@@ -36,10 +36,17 @@ export const projects = [
     },
     {
         title: "Restaurant Idea Generator",
-        summary: "The backend server of the Documentation Comments Scanner Platform. This server serves as the computational backbone of the platform and provides key functionalities including code analysis and integration with SCM tools.",
+        summary: "an AI-powered restaurant idea generator that uses LangChain’s Chains module to automatically create unique restaurant names and menu concepts.This system implements a sequential chain pipeline, allowing it to produce cohesive and themed outputs, which helped reduce brainstorming timefor small business owners.",
         githubLink: "https://github.com/sachinSingh16-09/Restaurant-idea-Generator",
-        technologies: ["Java Script", "python"]
+        technologies: ["Java Script", "python", "LangChain"]
     },
+    {
+        title: "EasyHire",
+        summary: "a dynamic job portal webpage that allows companies to post new openings and manage candidate hiring, streamlining the recruitment process. The platform features search and filter functionality to help users easily explore job listings based on keywords and categories, significantly improving job discoverability. The platform also supports real-time job updates and application visibility, enhancing user experience and engagement.",
+        githubLink: "https://github.com/sachinSingh16-09/EasyHire",
+        technologies: ["Java", "Spring Boot", "MongoDB", "ReactJS"]
+    },
+
 
 ];
 
